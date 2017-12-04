@@ -1,0 +1,9 @@
+{
+    "name": "StackedGrouped",
+    "description": "StackedGrouped",
+    "icon": "extension",
+    "type": "visualization",
+    "version": "1.0",
+    "preview": "icon.png",
+    "author": "Todd Margolis (based on sunburst by Brian Munz)"
+}

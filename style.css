@@ -1,0 +1,43 @@
+body {
+  font: 10px sans-serif;
+}
+ 
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #A9A9A9;
+  shape-rendering: crispEdges;
+}
+ 
+.bar {
+  fill: steelblue;
+}
+ 
+.x.axis path {
+  display: none;
+}
+ 
+ 
+div.tooltipDendo {
+  position: absolute;
+  width: 140px;
+  height: 30px;
+  pointer-events: none;
+  background : darkgrey;
+  line-height: 1;
+  font-weight: bold;
+  font-size:11px;
+  padding: 3px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #C0C0C0;
+  border: 2px solid #808000;
+  border-radius: 5px;
+  z-index:999;
+}
+.tick text{
+fill: #A9A9A9
+}
+
+.legend text{
+fill: #A9A9A9
+}
